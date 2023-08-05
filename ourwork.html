@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+
+
+</head>
+<body class="text-lg font-sans">
+  <div class="navbar h-28">
+    <div class="flex-1">
+      <a class="btn btn-ghost h-36" href="index.html"> <img src="Logo.png" class="max-h-36"> </a>
+    </div>
+    <div class="flex-none">
+        <div class="dropdown dropdown-end lg:hidden">
+            <label tabindex="0" class="btn btn-ghost text-base-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="black"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="ourwork.html">Our Work</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <ul class="menu menu-horizontal px-1 hidden lg:flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ourwork.html">Our Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 py-12">
+    <div class="flex justify-center content-center text-white">
+        <a href="https://myfootprint.net.au">
+        <div class="card w-64 bg-base-100 shadow-xl image-full hover:underline">
+            <figure><img src="MyFootprintServices.png"/></figure>
+            <div class="card-body flex justify-center content-center">
+            <h2 class="text-2xl font-bold text-center hover:underline">My Footprint</h2>
+            </div>
+        </div>
+        </a>
+    </div>
+
+    <div class="flex justify-center content-center text-white">
+        <a href="https://evascoops.com.au">
+        <div class="card w-64 bg-base-100 shadow-xl image-full hover:underline">
+            <figure><img src="Evascoops.png"/></figure>
+            <div class="card-body flex justify-center content-center">
+            <h2 class="text-2xl font-bold text-center hover:underline">Eva Scoops</h2>
+            </div>
+        </div>
+        </a>
+    </div>
+    
+    <div class="flex justify-center content-center text-white">
+        <a href="https://localreno.net">
+        <div class="card w-64 bg-base-100 shadow-xl image-full hover:underline">
+            <figure><img src="LocalRenoHome.png"/></figure>
+            <div class="card-body flex justify-center content-center">
+            <h2 class="text-2xl font-bold text-center hover:underline">Local Reno</h2>
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
+
+<div class="hero py-12">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">Contact Us</h1>
+        <p class="py-6">If you would like a website like one of these they have all been done for clients and were priced at $75.</p>
+        <button class="btn btn-primary"><a href="contact.html">Contact Us</a></button>
+      </div>
+    </div>
+  </div>
+
+<footer class="footer flex items-center justify-center content-center p-4">
+  <div class="flex items-center justify-center content-center">
+    <img src="Logo.png" class="w-36 h-12 object object-cover">
+    <p>Copyright © 2023 - All right reserved</p>
+  </div> 
+</footer>
+</body>
+</html>
